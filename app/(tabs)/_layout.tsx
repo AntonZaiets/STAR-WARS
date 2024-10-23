@@ -63,6 +63,16 @@ const TabsLayout = () => {
                         ),
                     }}
                 />
+                <Tabs.Screen
+                    name='Support'
+                    options={{
+                        title: 'Support',
+                        headerShown: false,
+                        tabBarIcon: ({ color, size }) => (
+                            <Ionicons name="help-circle-outline" color={color} size={size} />
+                        ),
+                    }}
+                />
             </Tabs>
             <StatusBar backgroundColor="#161622" style="light" />
         </>
